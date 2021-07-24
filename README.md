@@ -1,9 +1,16 @@
 # Carabistouilles.cpp
 
-Les petites crabistouilles en C++
+Les petites crabistouilles en C++.
 
-Certains programmes sont en C d'autre en C++ pour les faire fonctionner il faut `gcc` ou `g++`,
-petit guide d'installation pour débutant :
+## Préanbule
+
+Certains programmes sont en C d'autre en C++ pour les faire fonctionner il faut `gcc` ou `g++`.
+
+### Outils :
+- CMake (téléchargable [ici](https://cmake.org/download)).
+- Conan le gestionaire de dépandances toutes les informations de téléchargement sont [ici](https://conan.io/downloads.html)
+
+## Petit guide d'installation de `gcc` et `g++` pour débutant :
 
 ### Windows
 
@@ -29,8 +36,5 @@ Pour GNU Linux c'est plus simple il sufit d'installer les packets `gcc` ou `g++`
 apt update
 ```
 ```bash
-apt install gcc
-```
-```bash
-apt install g++
+apt install gcc -y && apt install g++ -y
 ```
